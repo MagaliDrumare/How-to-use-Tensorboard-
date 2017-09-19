@@ -1,6 +1,9 @@
 
 ***README  Tensorboard*** 
 
+***Vidéos explicatives des modèles et de tensorboard 
+
+***Liens utiles : 
 1-Mnist dataset: (http://yann.lecun.com/exdb/mnist/)
 
 2-Multilayer perceptron : http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
