@@ -1,14 +1,14 @@
 
 ***README  Tensorboard*** 
 
-1- ***Mnist dataset*** : http://yann.lecun.com/exdb/mnist/
-2- ***Multilayer perceptron*** : http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
-3- ***Convolutional Neural Network*** : http://cs231n.github.io/convolutional-networks/
-4- ***Gradient Descent*** : https://www.coursera.org/learn/neural-networks-deep-learning/lecture/A0tBd/gradient-descent
-5- ***Convolutional Neural Network*** :http://cs231n.github.io/convolutional-networks/
-6- ***Tensorflow Introduction*** : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
-7- ***Tensorboard*** : https://www.tensorflow.org/get_started/graph_viz
-8- ***Hands-On Tensorboard (Tensorflow dev summit 2017)*** : https://www.youtube.com/watch?v=eBbEDRsCmv4
+1- Mnist dataset: http://yann.lecun.com/exdb/mnist/
+2- Multilayer perceptron : http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
+3- Convolutional Neural Network: http://cs231n.github.io/convolutional-networks/
+4- Gradient Descent: https://www.coursera.org/learn/neural-networks-deep-learning/lecture/A0tBd/gradient-descent
+5- Convolutional Neural Network :http://cs231n.github.io/convolutional-networks/
+6- Tensorflow Introduction : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
+7- Tensorboard: https://www.tensorflow.org/get_started/graph_viz
+8- Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
 
 ***1-Création des logs :***
 >-Nommer les éléments name="x"
