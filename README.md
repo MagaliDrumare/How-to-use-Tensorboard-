@@ -2,21 +2,21 @@
 ***README  Tensorboard*** 
 
 >***Mnist dataset*** 
--http://yann.lecun.com/exdb/mnist/
+*-http://yann.lecun.com/exdb/mnist/
 >***Multilayer perceptron*** 
--http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
+*-http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
 >***Convolutional Neural Network*** 
--http://cs231n.github.io/convolutional-networks/
+*-http://cs231n.github.io/convolutional-networks/
 >***Gradient Descent*** 
--https://www.coursera.org/learn/neural-networks-deep-learning/lecture/A0tBd/gradient-descent
+*-https://www.coursera.org/learn/neural-networks-deep-learning/lecture/A0tBd/gradient-descent
 >***Convolutional Neural Network*** 
--http://cs231n.github.io/convolutional-networks/
+*-http://cs231n.github.io/convolutional-networks/
 >***Tensorflow Introduction*** 
--http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
+*-http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
 >***Tensorboard*** 
--https://www.tensorflow.org/get_started/graph_viz
+*-https://www.tensorflow.org/get_started/graph_viz
 >***Hands-On Tensorboard (Tensorflow dev summit 2017)***
--https://www.youtube.com/watch?v=eBbEDRsCmv4
+*-https://www.youtube.com/watch?v=eBbEDRsCmv4
 
 ***1-Création des logs :***
 >-Nommer les éléments name="x"
@@ -50,12 +50,12 @@ with tf.name_scope ("accuracy"):
         writer.add_graph(sess.graph)
 
 ***3-Incrémenter les logs dans la phase de training*** 
--Exemple 1 :  
+>-Exemple 1 :  
 if i%100 == 0:
         s= summ.eval(feed_dict={
         x:batch[0], y_: batch[1], keep_prob: 1.0})
         writer.add_summary(s,i)
--Exemple 2: 
+>-Exemple 2: 
 For I in range (2001): 
 batch=mnist.train.next_batch(100)
 If I%5 ==0: 
@@ -68,15 +68,15 @@ sess.run(train_step, eed_dict={x: batch [0], y: batch[1]})
 
 ***5-Aller à l’adresse : http://0.0.0.0:6006 dans le browser*** 
 
--Possibilité de suivi des logs 
+>-Possibilité de suivi des logs 
 --tf.summary.scalar 
 --tf.summary.image 
 --tf.summary.audio 
 --tf.summary.histogram 
 --tf.summary.tensor 
 
--Possibilité de suivre plusieurs modèles à la fois 
---Taper dans la console : tensorboard --logdir /tmp/mnist_tutorial
+>-Possibilité de suivre plusieurs modèles à la fois 
+Taper dans la console : tensorboard --logdir /tmp/mnist_tutorial
 
--Autre fonctionnalité de tensorboard Embeded Visualizer 
+>Autre fonctionnalité de tensorboard Embeded Visualizer 
  
