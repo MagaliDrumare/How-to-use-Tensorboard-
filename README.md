@@ -1,15 +1,10 @@
- 
-
-# Liens utiles : 
-
-1-Multilayer perceptron : http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
-
-2-Convolutional Neural Network: http://cs231n.github.io/convolutional-networks/
-
+# A savoir : 
+## TensorFlow est un framework de programmation pour le calcul numérique qui a été rendu Open Source par Google en Novembre 2015.
+## Tensorboard est l'outil de visualisation mise à disposition avec Tensorflow 
+1-Intro to tensorflow -https://blog.xebia.fr/2017/03/01/tensorflow-deep-learning-episode-1-introduction/
 3-Tensorflow Introduction : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
-
 4-Tensorboard: https://www.tensorflow.org/get_started/graph_viz
-
+2-Tensorboartd explained in 5 minutes : https://www.youtube.com/watch?v=3bownM3L5zM (by Siraj Raval)
 5-Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
 
 # Implementer Tensorboard: 
