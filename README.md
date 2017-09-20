@@ -45,13 +45,10 @@ tf.summary.scalar("entropy", cross_entropy)
 with tf.name_scope ("accuracy"):
 ```
 
-## 2-Fusion des logs tensorboard: 
+## 2-Initialiser l’ecriture du tensorboard :
 ```
 summ = tf.summary.merge_all()
 ```
-
->Initialiser l’ecriture du tensorboard 
-#Initialize les variables 
 ```
 sess.run(tf.global_variables_initializer())
 writer=tf.summary.FileWriter("/tmp/tensorboard/2")
