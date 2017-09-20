@@ -18,7 +18,9 @@
 
 8-Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
 
-***1-Création des logs :***
+# Implementer Tensorboard: 
+
+## 1-Création des logs: 
 >-Nommer les éléments name="x"
 x = tf.placeholder(tf.float32, shape=[None, 784], name="x")
 y_ = tf.placeholder(tf.float32, shape=[None, 10], name="y")
@@ -40,7 +42,7 @@ with tf.name_scope("entropy"):
 tf.summary.scalar("entropy", cross_entropy)
 with tf.name_scope ("accuracy"):
 
-***2-Fusion des logs tensorboard***
+## 2-Fusion des logs tensorboard: 
 >summ = tf.summary.merge_all()
 
 >Initialiser l’ecriture du tensorboard 
@@ -49,13 +51,13 @@ with tf.name_scope ("accuracy"):
         writer=tf.summary.FileWriter("/tmp/tensorboard/2")
         writer.add_graph(sess.graph)
 
-***3-Incrémenter les logs dans la phase de training*** 
-## Exemple 1 :  
+## 3-Incrémenter les logs dans la phase de training
+> Exemple 1 :  
 if i%100 == 0:
         s= summ.eval(feed_dict={
         x:batch[0], y_: batch[1], keep_prob: 1.0})
         writer.add_summary(s,i)
-## Exemple 2: 
+> Exemple 2: 
 For I in range (2001): 
 batch=mnist.train.next_batch(100)
 If I%5 ==0: 
@@ -64,19 +66,19 @@ writter.add_summary(s,i)
 sess.run(train_step, eed_dict={x: batch [0], y: batch[1]})
 
 
-***4-Taper dans la console tensorboard --logdir /tmp/tensorboard/2***
+## 4-Taper dans la console tensorboard --logdir /tmp/tensorboard/2
 
-***5-Aller à l’adresse : http://0.0.0.0:6006 dans le browser*** 
+## 5-Aller à l’adresse : http://0.0.0.0:6006 dans le browser
 
->-Possibilité de suivi des logs 
+# Possibilité de suivi des logs 
 --tf.summary.scalar 
 --tf.summary.image 
 --tf.summary.audio 
 --tf.summary.histogram 
 --tf.summary.tensor 
 
->-Possibilité de suivre plusieurs modèles à la fois 
+# Possibilité de suivre plusieurs modèles à la fois 
 Taper dans la console : tensorboard --logdir /tmp/mnist_tutorial
 
->Autre fonctionnalité de tensorboard Embeded Visualizer 
+# Autre fonctionnalité de tensorboard Embeded Visualizer 
  
