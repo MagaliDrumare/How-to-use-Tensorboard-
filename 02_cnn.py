@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 19 15:31:49 2017
+Copyright 2017 Google, Inc. All Rights Reserved.
+Hands-on TensorBoard (TensorFlow Dev Summit 2017)
+https://www.youtube.com/watch?v=eBbEDRsCmv4
 
+Created on Tue Sep 19 15:31:49 2017
 @author: magalidrumare
+
+
 """
 
 
