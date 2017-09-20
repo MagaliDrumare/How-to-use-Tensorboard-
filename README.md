@@ -1,9 +1,9 @@
 
 ***README  Tensorboard*** 
 
-***Vidéos explicatives des modèles et de tensorboard 
+*** explicatives des modèles et de tensorboard 
 
-***Liens utiles : 
+#Liens utiles : 
 1-Mnist dataset: (http://yann.lecun.com/exdb/mnist/)
 
 2-Multilayer perceptron : http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
@@ -52,12 +52,12 @@ with tf.name_scope ("accuracy"):
         writer.add_graph(sess.graph)
 
 ***3-Incrémenter les logs dans la phase de training*** 
->-Exemple 1 :  
+-Exemple 1 :  
 if i%100 == 0:
         s= summ.eval(feed_dict={
         x:batch[0], y_: batch[1], keep_prob: 1.0})
         writer.add_summary(s,i)
->-Exemple 2: 
+-Exemple 2: 
 For I in range (2001): 
 batch=mnist.train.next_batch(100)
 If I%5 ==0: 
