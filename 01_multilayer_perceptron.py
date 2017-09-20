@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-How to use Tensorboard
-
+How to use Tensorboard? 
 Tensorflow is an open-source software library for Machine Intelligence made in Google. 
 https://twitter.com/tensorflow
 
-This example is using the MNIST database of handwritten digits 
+Credit: 
+-This example is using the MNIST database of handwritten digits 
 (http://yann.lecun.com/exdb/mnist)
-
-This example used the code written by Aymeric Damien 
+-This example used the code written by Aymeric Damien 
 https://github.com/aymericdamien/Tensorflow_examples 
 https://twitter.com/AymericDamien
-Created on Mon Sep 18 14:36:56 2017
 
+Created on Mon Sep 18 14:36:56 2017
 @author: magalidrumare
 """
 
