@@ -59,17 +59,18 @@ with tf.name_scope ("accuracy"):
 
 ## 3-Incrémenter les logs dans la phase de training
 > Exemple 1 :  
-if i%100 == 0:
+'''if i%100 == 0:
         s= summ.eval(feed_dict={
         x:batch[0], y_: batch[1], keep_prob: 1.0})
-        writer.add_summary(s,i)
+        writer.add_summary(s,i)'''
+        
 > Exemple 2: 
-For I in range (2001): 
+'''For I in range (2001): 
 batch=mnist.train.next_batch(100)
 If I%5 ==0: 
 s=sess.run(merges_summary, feed_dict={x: batch [0], y: batch[1]}
 writter.add_summary(s,i)
-sess.run(train_step, eed_dict={x: batch [0], y: batch[1]})
+sess.run(train_step, eed_dict={x: batch [0], y: batch[1]})'''
 
 
 ## 4-Taper dans la console tensorboard --logdir /tmp/tensorboard/2
