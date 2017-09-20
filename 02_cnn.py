@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+Credit: 
 Copyright 2017 Google, Inc. All Rights Reserved.
 Hands-on TensorBoard (TensorFlow Dev Summit 2017)
 https://www.youtube.com/watch?v=eBbEDRsCmv4
