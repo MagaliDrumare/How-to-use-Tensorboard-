@@ -2,19 +2,15 @@
 
 # Liens utiles : 
 
-1-Mnist dataset: (http://yann.lecun.com/exdb/mnist/)
+1-Multilayer perceptron : http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
 
-2-Multilayer perceptron : http://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
+2-Convolutional Neural Network: http://cs231n.github.io/convolutional-networks/
 
-3-Convolutional Neural Network: http://cs231n.github.io/convolutional-networks/
+3-Tensorflow Introduction : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
 
-4-Gradient Descent: https://www.coursera.org/learn/neural-networks-deep-learning/lecture/A0tBd/gradient-descent
+4-Tensorboard: https://www.tensorflow.org/get_started/graph_viz
 
-5-Tensorflow Introduction : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
-
-6-Tensorboard: https://www.tensorflow.org/get_started/graph_viz
-
-7-Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
+5-Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
 
 # Implementer Tensorboard: 
 ## Possibilité de suivi des logs 
