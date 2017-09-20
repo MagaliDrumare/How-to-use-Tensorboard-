@@ -7,7 +7,7 @@
 - Tensorboartd explained in 5 minutes : https://www.youtube.com/watch?v=3bownM3L5zM (by Siraj Raval)
 - Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
 
-# Implementer Tensorboard: 
+# Implémenter Tensorboard: 
 ## Possibilité de suivi des logs 
 - tf.summary.scalar 
 - tf.summary.image 
