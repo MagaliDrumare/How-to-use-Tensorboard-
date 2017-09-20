@@ -1,11 +1,11 @@
 # A savoir : 
 * TensorFlow est un framework de programmation pour le calcul numérique qui a été rendu Open Source par Google en Novembre 2015.
 * Tensorboard est l'outil de visualisation mise à disposition avec Tensorflow 
-        - Intro to tensorflow : https://blog.xebia.fr/2017/03/01/tensorflow-deep-learning-episode-1-introduction/
-        - Tensorflow Introduction : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
-        - Tensorboard: https://www.tensorflow.org/get_started/graph_viz
-        - Tensorboartd explained in 5 minutes : https://www.youtube.com/watch?v=3bownM3L5zM (by Siraj Raval)
-        - Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
+- Intro to tensorflow : https://blog.xebia.fr/2017/03/01/tensorflow-deep-learning-episode-1-introduction/
+- Tensorflow Introduction : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
+- Tensorboard: https://www.tensorflow.org/get_started/graph_viz
+- Tensorboartd explained in 5 minutes : https://www.youtube.com/watch?v=3bownM3L5zM (by Siraj Raval)
+- Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
 
 # Implementer Tensorboard: 
 ## Possibilité de suivi des logs 
