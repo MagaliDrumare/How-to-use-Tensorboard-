@@ -19,6 +19,12 @@
 8-Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
 
 # Implementer Tensorboard: 
+## Possibilité de suivi des logs 
+- tf.summary.scalar 
+- tf.summary.image 
+- tf.summary.audio 
+- tf.summary.histogram 
+- tf.summary.tensor 
 
 ## 1-Création des logs: 
 >-Nommer les éléments name="x"
@@ -70,15 +76,5 @@ sess.run(train_step, eed_dict={x: batch [0], y: batch[1]})
 
 ## 5-Aller à l’adresse : http://0.0.0.0:6006 dans le browser
 
-# Possibilité de suivi des logs 
---tf.summary.scalar 
---tf.summary.image 
---tf.summary.audio 
---tf.summary.histogram 
---tf.summary.tensor 
 
-# Possibilité de suivre plusieurs modèles à la fois 
-Taper dans la console : tensorboard --logdir /tmp/mnist_tutorial
 
-# Autre fonctionnalité de tensorboard Embeded Visualizer 
- 
