@@ -10,13 +10,11 @@
 
 4-Gradient Descent: https://www.coursera.org/learn/neural-networks-deep-learning/lecture/A0tBd/gradient-descent
 
-5-Convolutional Neural Network :http://cs231n.github.io/convolutional-networks/
+5-Tensorflow Introduction : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
 
-6-Tensorflow Introduction : http://web.stanford.edu/class/cs20si/lectures/slides_01.pdf
+6-Tensorboard: https://www.tensorflow.org/get_started/graph_viz
 
-7-Tensorboard: https://www.tensorflow.org/get_started/graph_viz
-
-8-Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
+7-Hands-On Tensorboard (Tensorflow dev summit 2017): https://www.youtube.com/watch?v=eBbEDRsCmv4
 
 # Implementer Tensorboard: 
 ## Possibilité de suivi des logs 
