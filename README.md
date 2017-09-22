@@ -1,3 +1,5 @@
+![alt tag](http://edwardlib.org/images/tensorboard-graphs-1.png)
+
 # A voir et à savoir : 
 #### TensorFlow est un framework de programmation pour le calcul numérique qui a été rendu Open Source par Google en Novembre 2015.
 
