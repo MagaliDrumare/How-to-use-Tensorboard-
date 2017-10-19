@@ -20,13 +20,13 @@
 
 ## 1-Création des logs: 
 >-Nommer les éléments name="x"
-```
+```python
 x = tf.placeholder(tf.float32, shape=[None, 784], name="x")
 y_ = tf.placeholder(tf.float32, shape=[None, 10], name="y")
 ```
 
 >-Representation des variables dans Tensorboard
-```
+```python
 tf.summary.histogram("W1",W_conv1)
 tf.summary.histogram("b1", b_conv1)
 tf.summary.histogram("W2",W_conv2)
@@ -34,7 +34,7 @@ tf.summary.histogram("b2", b_conv2)
 ```
 
 >-Représentation des layers dans Tensorboard 
-```
+```python
 with tf.name_scope("convolutional1"): 
 with tf.name_scope("fc1"):
 with tf.name_scope("dropout"):
@@ -42,17 +42,17 @@ with tf.name_scope("output"):
 ```
 
 >-Représentation des indicateurs de performances 
-```
+```python
 with tf.name_scope("entropy"):   
 tf.summary.scalar("entropy", cross_entropy)
 with tf.name_scope ("accuracy"):
 ```
 
 ## 2-Initialiser l’ecriture du tensorboard :
-```
+```python
 summ = tf.summary.merge_all()
 ```
-```
+```python
 sess.run(tf.global_variables_initializer())
 writer=tf.summary.FileWriter("/tmp/tensorboard/2")
 writer.add_graph(sess.graph)
@@ -60,7 +60,7 @@ writer.add_graph(sess.graph)
 
 ## 3-Incrémenter les logs dans la phase de training
 > Exemple 1 :  
-```
+```python
 if i%100 == 0:
         s= summ.eval(feed_dict={
         x:batch[0], y_: batch[1], keep_prob: 1.0})
@@ -68,7 +68,7 @@ if i%100 == 0:
 ```
     
 > Exemple 2: 
-```
+```python
 For I in range (2001): 
 batch=mnist.train.next_batch(100)
 If I%5 ==0: 
